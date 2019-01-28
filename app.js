@@ -46,6 +46,6 @@ app.use("/", indexRoutes);
 app.use("/campgrounds", campgroundRoutes);
 app.use("/campgrounds/:id/comments", commentRoutes);
 
-app.listen(3000, "192.168.70.106", function() {
+app.listen(3000, "127.0.0.1", function() {
   console.log("The YelpCamp Server Has Started!");
 });
