@@ -14,7 +14,6 @@ let campgroundRoutes = require("./routes/campgrounds");
 let indexRoutes = require("./routes/index");
 
 mongoose.connect(process.env.DATABASEURL);
-// mongoose.connect("mongodb://Songchen:mongodb660@ds213755.mlab.com:13755/yelp_camp"); 
 
 // seedDB();
 
